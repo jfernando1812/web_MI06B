@@ -1,0 +1,35 @@
+@keyframes fondo{
+	0%{ background-color: blue; }
+	10%{ background-color: green; }
+	30%{ background-color: white; }
+	100%{background-color: blue;}
+}
+
+.container{
+	text-align: center;
+	margin-top: 5%;
+	font-family: fantasy;
+	background-color: brown;
+	width: 500px;
+}
+.container:hover{
+	animation: fondo;
+	animation-name: fondo;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+
+section{
+	background-color: green;
+}
+option{
+	color: yellow;
+}
+nav.galeria{
+	cursor: pointer;
+
+	text-align: center;
+	width: 50%;
+	position: 50%;
+	margin-left: 25%;
+}

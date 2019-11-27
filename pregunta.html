@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="utf-8">
+	<title>Cuestionario</title>
+	<link rel="stylesheet" type="text/css" href="./css/materialize.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/style2.css">
+    <link rel="stylesheet" type="text/css" href="./css/sweetalert2.min.css">
+
+</head>
+<body class="green">
+	<nav class="galeria">
+		<div class="row">
+			
+			<div class="col s6" id="menu">Menu</div>
+			<div class="col s6 right-aling" id="Salir">Salir</div>
+		</div>
+	</nav>
+
+
+	<div class="container center-aling">
+		<h1>Prueba</h1>
+		<input id="iniciar" type="submit" value="iniciar" class="btn">
+			<div class="row " hidden id="p1">
+				<div class="col s12 input-field">
+					<select>
+						<option value="" disabled selected></option>
+						<option value="0">Femenino</option>
+						<option value="1">Masculino</option>
+					</select>
+					<label><h6>Sexo</h6></label>
+				</div>
+				<div class="col s12 input-field">
+					<select>
+						<option value=""></option>
+						<option value="0">soltero</option>
+						<option value="1">casado</option>
+						<option value="2">divorciado</option>
+					</select>
+					<label><h6>Estado</h6></label>
+				</div>
+			</div>
+
+			<div  class="row" hidden id="p2">
+				<div class="col s12 input-field">
+					<input type="number">
+					<label>Edad</label>
+				</div>
+				<div class="col s12 input-field">
+					<select>
+						<option value=""></option>
+						<option value="0">estudiante</option>
+						<option value="1">profesor</option>
+						<option value="2">doctor</option>
+					</select>
+					<label><h6>Profesion</h6></label>
+				</div>
+			</div>
+
+			<div  class="row" hidden id="p3">
+				<div class="col s12 input-field">
+					<input type="number">
+					<label><h6>Numero de hermanos</h6></label>
+				</div>
+				<div class="col s12 input-field">
+					<select>
+						<option value=""></option>
+						<option value="0">si</option>
+						<option value="1">no</option>
+						
+					</select>
+					<label><h6>Eres puto(a)</h6></label>
+				</div>
+			</div>
+
+
+			<input id="siguiente" type="submit" class="btn" value="siguiente">
+	</div>
+
+
+
+
+	<script src="./js/jquery.js"></script>
+    <script src="./js/sweetalert2.min.js"></script>
+    <script src="./js/program.js"></script>
+    <script src="./js/materialize.min.js"></script>
+
+</body>
+</html>
